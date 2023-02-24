@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	* {
+		@apply font-[Ubuntu,'SF_Pro'];
+	}
+	body {
+		@apply h-screen overflow-hidden;
+	}
+	div.App {
+		@apply flex-col h-screen;
+	}
+}
